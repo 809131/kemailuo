@@ -1,0 +1,138 @@
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content:" ";
+}
+.text_small{font-size: 0.7rem;}
+.text-color{
+    color:#434343;
+}
+.container{
+    margin:0 auto ;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.breadcrumb{
+    background-color:#f2f2f2;
+    margin-bottom:0;
+}
+.pl-50{
+    padding-left: 3rem;
+}
+.my-header{
+    line-height:67px;
+}
+.my-header li{
+    margin:0 1.38%;
+}
+.header{
+    height:68px;
+    border-bottom:1px solid #b9bdc1;
+    overflow:hidden;
+}
+.showcase{
+    text-align: center;
+}
+.showcase.switch{
+    display: inline-block;
+    list-style: none;
+    margin:0;
+}
+.showcase .switch>li{
+    list-style: none;
+    width:114px;height:48px;
+    margin:0 32px;
+    padding:10px 15px;
+    box-sizing:border-box;
+    font-size: 20px;
+    float:left;
+}
+.showcase .switch::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.showcase .switch :first-child{
+border-bottom:5px solid #f3bc00;
+}
+.colors{
+    list-style:none;
+    display: inline-block;
+}
+.colors>li{
+    float: left;
+    margin:0 .4rem;
+}
+.colors>li>a>img{
+    border-radius: 50%;
+}
+.showcase .size{
+    display: inline-block;
+    list-style: none;
+}
+.showcase .size>li{
+    float: left;
+    padding-left: 18px;
+    margin-right:18px;
+}
+.showcase .size>li+li{
+    border-left: 1px;}
+.info{
+    top:100px;
+    width:500px;
+    height:320px;
+    text-align: center;
+    line-height: 35px;
+    box-sizing: border-box;
+    font-size:36px;
+}
+.info span,p{font-size:20px;}
+.info .box{
+    float:left;
+    width:50%;height:50%;
+    margin-bottom:40px;
+    padding-top: 40px;
+}
+.info .down{
+    border-top: 1px solid;
+}
+.more{
+    width:1200px;
+    text-align: center;
+}
+.more .btn{
+    color:#434343;
+    font-size: 20px;
+    line-height: 40px;
+    width:260px;height:50px;
+    background-color:#f3bc00;
+}
+.more .btn:last-child{margin-left:24px;}
+.trim{
+    text-align:center;
+}
+.trim h3{
+    font-size:30px;
+    margin:24px 0;
+    padding-bottom:10px;
+    border-bottom:1px solid;
+}
+.trim .sub{
+    font-size: 24px;
+    margin:24px 0;
+}
+.kv>img{
+    margin-bottom:40px;
+}
+.trim .box{
+    padding:0 20px;
+    font-size: 24px;
+}
+.trim .box p{
+    font-size: 14px;
+}
+.content{
+    width:1200px;
+    height:256px;
+
+}

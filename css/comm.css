@@ -1,0 +1,35 @@
+
+body{background-color: #fff;
+    color:#434343;
+    font-family: louis,Arial,"Hiragino Sans GB W3","Microsfot Yahei","Î¢ÈíÑÅºÚ",sans-serif;
+}
+.text_small{font-size: 0.8rem;}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+}
+.my_footer{width: 100%;}
+@media (min-width: 576px) {
+    .my_footer{height: 36rem;}
+}
+@media (min-width: 992px) {
+    .my_footer{height:26rem;}
+}
